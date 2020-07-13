@@ -2,4 +2,4 @@
 Hover and drop-down functionality is used here. 
 
 
-[!alt text]()
+![alt text](https://github.com/Shalini21c/dropdown_webpage/blob/master/ss.png)
