@@ -1,0 +1,143 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	/*background: #FC5C7D;
+	background: -webkit-linear-gradient(to left, #6A82FB, #FC5C7D);
+	background: linear-gradient(to left, #6A82FB, #FC5C7D);*/
+	background-color: #fff;
+
+
+}
+
+.navbar{
+	background-color: rgb(255, 157, 70);
+	height: 50px;
+}
+
+.navbar ul{
+	display: inline;
+}
+
+.navbar li{
+	display: inline;
+	font-size: 36px;
+	padding-left: 200px;
+}
+
+.navbar a{
+	text-decoration: none;
+	padding: 12px;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.navbar a:hover{
+	background-color: #FFC52D;
+	color: #575757;
+}
+
+.menu1{
+	display: none;
+}
+
+
+.navbar li:hover .menu1{
+	display: block;
+	position: absolute;
+	background-color: rgb(255, 199, 25,0.8);
+	margin-top: 9px;
+	margin-left: 180px;
+	height: 50px;
+	padding-bottom: 2px;
+}
+
+.navbar li:hover .menu1 ul{
+	padding-right: 35px;
+	display: inline;
+}
+
+.navbar li:hover .menu1 ul li{
+	display: inline;
+	padding-right: 160px;
+	padding-left: 25px;
+}
+
+.navbar li:hover .menu1 ul li a{
+	font-size: 17px;
+	font-weight: 600;
+	font-family: cursive;
+	color: #fff;
+	padding: 11px;
+}
+
+.navbar li:hover .menu1 ul li a:hover{
+	background-color: #FFA914;
+	color: #575757;
+}
+
+.submenu1{
+	display: none;
+}
+
+.active:hover .submenu1{
+	display: block;
+	position: absolute;
+	background-color: rgb(255, 123, 78);
+	margin-left: 40px;
+	margin-top: 9px;
+	max-height: 142px;
+}
+
+.active:hover .submenu1 ul{
+	display: block;
+}
+
+.active:hover .submenu1 ul li{
+	display: block;
+}
+
+.active:hover .submenu1 ul li a{
+	margin-top: -40px;
+	display: block;
+}
+
+.active:hover .submenu1 ul li a:hover{
+	background-color: #FFA914;
+	color: #575757; 
+}
+
+.card{
+	background-color: #fff;
+	display: inline-block;
+	max-width: 850px;
+	min-height:300px;
+	margin-left: 300px;
+	margin-top: 80px; 
+	margin-bottom: 40px;
+}
+
+.card p{
+	padding: 20px;
+	margin: 0px;
+	text-align: justify;
+	font-family: 'Fondamento', cursive;
+}
+
+.btn{
+	background-color: #69E729;
+	width: 200px;
+	height: 40px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 310px;
+	color: #000;
+	font-family: Verdana;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.btn:hover{
+	color: #FF0400;
+	background-color: #FFC300;
+}
